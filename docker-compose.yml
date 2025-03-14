@@ -1,0 +1,8 @@
+services:
+  capital-gains_service:
+    image: node:22.14-alpine
+    container_name: capital-gains_service
+    build: ./
+    command: sleep infinity
+    volumes:
+      - ./app:/app

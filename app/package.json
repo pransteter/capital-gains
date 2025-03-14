@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Capital Gains CLI",
+  "scripts": {
+    "process-one": "node ./src/actions/process-one.js --no-warnings",
+    "process-multiple": "node ./src/actions/process-multiple.js --no-warnings"
+  },
+  "keywords": [
+    "capital",
+    "gains",
+    "calculate",
+    "tax"
+  ],
+  "license": "ISC"
+}
