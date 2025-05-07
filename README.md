@@ -1,5 +1,7 @@
 # Capital Gains
 
+![GitHub top language](https://img.shields.io/github/languages/top/pransteter/capital-gains)
+
 ## Objetivo do projeto:
 O objetivo deste projeto é simular a implementação de um programa de linha de comando (CLI) que calcula o imposto a ser pago sobre lucros ou prejuízos de operações no mercado financeiro de ações.
 
