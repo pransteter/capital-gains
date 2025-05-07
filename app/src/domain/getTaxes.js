@@ -41,23 +41,6 @@ const getTaxes = (transactions) => {
             ? processSellTransaction(transaction)
             : processBuyTransaction(transaction)
     })
-
-    // transactions.forEach((transaction) => {
-    //     const transactionBalance = calculateTransactionBalance(transaction, stockAveragePrice)
-    //     const balance = calculateBalance(transactionBalance, acummulatedLosses)
-
-    //     result.push({tax: calculateTax(transaction, stockAveragePrice, balance).toFixed(2)})
-
-    //     stockAveragePrice = calculateAveragePrice(transaction, stockQuantity, stockAveragePrice)
-    //     stockQuantity = calculateStockQuantity(transaction, stockQuantity)
-
-    //     acummulatedLosses += transactionBalance
-    //     if (acummulatedLosses > 0) {
-    //         acummulatedLosses = 0
-    //     }
-    // })
-
-    // return result
 }
 
 module.exports = {
