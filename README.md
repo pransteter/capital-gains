@@ -25,12 +25,12 @@ Uma vez tendo acessado o nodejs, basta inserir os inputs em uma linha apenas. Pa
 [{"operation":"buy","unit-cost":10.00,"quantity":10000},{"operation":"sell","unit-cost":2.00,"quantity":5000},{"operation":"sell","unit-cost":20.00,"quantity":2000},{"operation":"sell","unit-cost":20.00,"quantity":2000},{"operation":"sell","unit-cost":25.00,"quantity":1000},{"operation":"buy","unit-cost":20.00,"quantity":10000},{"operation":"sell","unit-cost":15.00,"quantity":5000},{"operation":"sell","unit-cost":30.00,"quantity":4350},{"operation":"sell","unit-cost":30.00,"quantity":650}]
 ```
 
-**Demonstração:**
+**Demonstração:**<br>
 ![alt text](docs/images/running-app.png)
 
 ## Como executar os testes:
 
 Rode o comando `make tests`
 
-**Demonstração:**
+**Demonstração:**<br>
 ![alt text](docs/images/running-tests.png)
